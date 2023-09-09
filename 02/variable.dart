@@ -1,11 +1,11 @@
 void main() {
   //Fixed Datatype
-  int number = 10; // type is interger
+  int number = 10; // type is int
   print(number); // 10
   double number1 = 10; // type is double 10.0
   print(number1); //10.0
   String name = 'Syed Talal Jilani'; // type is string
-  print(name); // Syed Talal Jilani
+  print(name); // SyedTalalJilani
   bool check = true; // type is boolean
   print(check);
 
@@ -39,6 +39,10 @@ void main() {
   print(test);
   test = 'Syed Talal Jilani';
   print(test);
+
+  // type test
+  print(test is String);
+  print(test !is String);
   // variable names
   //file_name (snake case)
   // ClassName (Pascal Case)

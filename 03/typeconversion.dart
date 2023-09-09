@@ -11,6 +11,21 @@ void main(){
   // print(data.toJS);
     
   // radix string ?
-    
- // as use
+  print(number.toSigned(5)); // number is 3 signed bit is 1 3+1 = 4
+  print(number.isEven);// true
+  print(number.isOdd); // false
+  print(number.hashCode); // hash code of numeric value
+  print(string.hashCode); // hash code of string
+  var negative = -10;
+  print(negative.abs());//10
+  print(number.isFinite);//true
+  print(number.isInfinite);// false
+  print(number.isNaN); // false
+  print(number.isNegative); // false
+  print(number.ceilToDouble()); // 100.0
+  var double = 1000.000;
+  print(double.ceil()); // 1000
+  print(double.clamp(0, 100));
+  
+   // as use
 }
